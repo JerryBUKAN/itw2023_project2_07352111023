@@ -56,13 +56,11 @@
     text-align: justify;
 }
 
-/* .judul {
-    font-size: 30px;
-} */
-
-/* .img-about {
-    width: ;
-}  */
+.crop-img {
+    height: 350px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+}
 
 /* Service */
 .container-service {
@@ -105,4 +103,67 @@
 
 .card:hover::before {
     left: 0%;
+}
+
+/* Contact */
+.container-pembungkus {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-contact {
+    width: 60%;
+    padding: 45px;
+    border-radius: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,);
+}
+
+.row-contact {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.col-contact1 {
+    padding: 20px;
+}
+
+.col-contact2 {
+    background-color: #1089ff;
+    padding: 10px;
+    color: white;
+}
+
+.form-control-contact {
+    height: 52px;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    border-radius: 2px;
+    box-sizing: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.bi-contact {
+    font-size: 20px;
+}
+
+.d-flex-contact p {
+    font-size: 18px;
+    padding-left: 18px;
+}
+
+@media only screen and (max-width:600px){
+    .container-contact{
+        width: 90%;
+        padding: 20px;
+        border-radius: 0;
+        position: relative;
+        left: auto;
+        top: auto;
+        transform: none;
+        margin: 50px auto;
+    }
 }
