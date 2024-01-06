@@ -78,7 +78,7 @@ body {
 .crop-img {
     width: 700px;
     height: auto;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
     border-radius: 20px;
 }
 
