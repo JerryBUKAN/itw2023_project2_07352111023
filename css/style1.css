@@ -1,11 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&family=Pacifico&family=Poppins:wght@400;500;600&display=swap');
 
-* {
+body {
     font-family: 'Poppins', sans-serif;
 }
 
 .theme-text {
     color: #474af0;
+}
+
+.fonts-nav {
+    font-family: 'Abril Fatface', serif;
+}
+
+.fonts-text {
+    font-family: 'Pacifico', cursive;
 }
 
 .navbar-brand {
@@ -34,6 +42,17 @@
     padding-bottom: 20%;
     color: #fff;
 }
+
+@media only screen and (max-width: 600px) {
+    .display-1 {
+      font-size: 3rem; 
+    }
+    
+    .display-6 {
+      font-size: 1.5rem; 
+    }
+  }
+  
 
 /* staff */
 .tim img {
@@ -113,18 +132,22 @@
 }
 
 .container-contact {
-    width: 60%;
+    width: 90%;
     padding: 45px;
     border-radius: 0;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,);
-}
-
-.row-contact {
+    /* position: absolute; */
+    margin: 0 auto;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+
+.h4-contact {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* .row-contact {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+} */
 
 .col-contact1 {
     padding: 20px;
@@ -137,7 +160,7 @@
 }
 
 .form-control-contact {
-    height: 52px;
+    height: 80px;
     background: #fff;
     color: #000;
     font-size: 14px;
@@ -156,14 +179,21 @@
 }
 
 @media only screen and (max-width:600px){
-    .container-contact{
+    /* .container-contact{
         width: 90%;
         padding: 20px;
         border-radius: 0;
         position: relative;
-        left: auto;
-        top: auto;
+        left: 0;
+        top: 0;
         transform: none;
         margin: 50px auto;
+    } */
+    .container-contact{
+        width: 100%;
+        padding: 20px;
+        border-radius: 0;
+        margin: 50px auto; /* Menggunakan margin auto untuk menengahkan horizontal */
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; /* Memindahkan box-shadow ke container ini */
     }
 }
