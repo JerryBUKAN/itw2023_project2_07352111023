@@ -52,7 +52,7 @@ hr {
     justify-content: center;
     align-items: center;
     height: 650px;
-    background: url(/img/bg-staff.jpg);
+    background: url(../img/bg-staff.jpg);
     background-size: cover;
     background-position: center;
     color: #000000;
@@ -89,7 +89,7 @@ hr {
 
 /* staff */
 .container-staff {
-    background-image: url(/img/bg-staff.jpg);
+    background-image: url(../img/bg-staff.jpg);
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -166,7 +166,7 @@ hr {
 .container-tentang {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-image: url(/img/bg-staff.jpg);
+    background-image: url(../img/bg-staff.jpg);
 }
 
 .p-about {
@@ -184,7 +184,7 @@ hr {
 
 /* Service */
 .container-service {
-    background-image: url(/img/bg-staff.jpg);
+    background-image: url(../img/bg-staff.jpg);
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -233,7 +233,7 @@ hr {
 
 /* Contact */
 .container-first {
-    background-image: url(/img/bg-staff.jpg);
+    background-image: url(../img/bg-staff.jpg);
 }
 
 .container-pembungkus {
@@ -304,7 +304,7 @@ hr {
         width: 100%;
         padding: 20px;
         border-radius: 0;
-        margin: 50px auto; /* Menggunakan margin auto untuk menengahkan horizontal */
-        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; /* Memindahkan box-shadow ke container ini */
+        margin: 50px auto; 
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
     }
 }
