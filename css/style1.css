@@ -57,7 +57,7 @@ body {
 /* staff */
 .tim img {
     width: 250px;
-    border: 10px solid #c2cdd0;
+    border: 7px solid #433f3f;
 }
 
 .sosial {
@@ -66,7 +66,7 @@ body {
     height: 40px;
     color: #fff;
     border-radius: 50%;
-    background-color: #333;
+    background-color: #000000;
     line-height: 40px;
 }
 
@@ -76,9 +76,10 @@ body {
 }
 
 .crop-img {
-    height: 350px;
-    padding-bottom: 20px;
-    border-radius: 50px;
+    width: 700px;
+    height: auto;
+    /* padding-bottom: 20px; */
+    border-radius: 20px;
 }
 
 /* Service */
